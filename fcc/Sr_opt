@@ -1,0 +1,28 @@
+  FIT     =   V0              E0          B0      B'      A0        A0[A] 
+Birch-Mur = 349.379775    -3177.941772   12.27   3.66   11.180278   5.916
+RoseVinet = 349.370178    -3177.941773   12.30   3.67   11.180175   5.916
+Murnagha2 = 349.417037    -3177.941771   12.19   3.61   11.180675   5.917
+PoirerTar = 349.356514    -3177.941773   12.31   3.68   11.180029   5.916
+Murnaghan = 349.416945    -3177.941771   12.19   3.61   11.180674   5.917
+Parabola  = 353.661778    -3177.865135                  11.225767   5.940
+
+outputlevel="normal"
+rgkmax="10"
+gmaxvr="12.0"
+ngridk="10 10 10"
+nempty="5"
+lmaxvr="12.0"
+lmaxapw="12.0"
+lmaxmat="12.0"
+xctype="GGA_PBE_SOL"
+</groundstate
+<groundstate 
+outputlevel="normal"
+rgkmax="10"
+gmaxvr="12.0"
+ngridk="10 10 10"
+nempty="5"
+lmaxvr="12.0"
+lmaxapw="12.0"
+lmaxmat="12.0"
+xctype="GGA_PBE_SOL"
