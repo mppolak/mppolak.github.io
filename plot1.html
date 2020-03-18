@@ -3,12 +3,14 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
 
-google.charts.load('current', {'packages': ['line']});
+google.charts.load('current', {
+  packages: ['corechart', 'line']
+});
 google.charts.setOnLoadCallback(drawBasic);
 
 function drawBasic() {
 
-var data = new google.visualization.DataTable();
+  var data = new google.visualization.DataTable();
 data.addColumn('number', 'ie');
 data.addColumn('number', 'F-DFHS-FM');
 data.addColumn('number', 'F-DFHS-NO');
@@ -68,10 +70,11 @@ data.addColumn('number', 'U-TFM-TF');
        
   };
 
-     var chart = new google.charts.Line(document.getElementById('chart_div'));
+  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
-      chart.draw(data, google.charts.Line.convertOptions(options));
+  chart.draw(data, options);
 }
+
 
 
     </script>
